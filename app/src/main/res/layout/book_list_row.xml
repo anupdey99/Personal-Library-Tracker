@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
+    android:layout_margin="5dp"
     android:background="@drawable/custom_border_booklist"
     >
 
@@ -38,7 +38,7 @@
                 android:hint="Book Name"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@android:color/black"
-
+                android:textSize="30sp"
                 android:id="@+id/bookNameTVID"
                 android:text="Harry Porter"
                 />
@@ -51,7 +51,8 @@
                 android:textColor="@android:color/holo_orange_dark"
                 android:id="@+id/bookCategoryTVID"
                 android:text="Nobel"
-
+                android:textStyle="italic"
+                android:textSize="20sp"
                 />
 
 
@@ -98,17 +99,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_margin="10dp"
+        android:layout_margin="8dp"
 
-        android:background="@android:color/holo_orange_light"
+
         >
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="5dp"
             android:src="@drawable/writenew"
             android:adjustViewBounds="true"
-            android:background="@android:color/transparent"
+            android:background="@drawable/action_btn_layout"
             android:scaleType="centerInside"
             android:id="@+id/editBookIBID"
             />
@@ -116,9 +118,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="5dp"
             android:src="@drawable/trash"
             android:adjustViewBounds="true"
-            android:background="@android:color/transparent"
+            android:background="@drawable/action_btn_layout"
             android:scaleType="centerInside"
             android:id="@+id/deleteBookIBID"
             />
@@ -126,9 +129,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="5dp"
             android:src="@drawable/overflowdots"
             android:adjustViewBounds="true"
-            android:background="@android:color/transparent"
+            android:background="@drawable/action_btn_layout"
             android:scaleType="centerInside"
             android:id="@+id/detailBookInfoIBID"
             />
@@ -136,9 +140,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="5dp"
             android:src="@drawable/new_item"
             android:adjustViewBounds="true"
-            android:background="@android:color/transparent"
+            android:background="@drawable/action_btn_layout"
             android:scaleType="centerInside"
             android:id="@+id/addBookQtyIBID"
             />
@@ -146,9 +151,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="5dp"
             android:src="@drawable/next"
             android:adjustViewBounds="true"
-            android:background="@android:color/transparent"
+            android:background="@drawable/action_btn_layout"
             android:scaleType="centerInside"
             android:id="@+id/borrowBookIBID"
             />
