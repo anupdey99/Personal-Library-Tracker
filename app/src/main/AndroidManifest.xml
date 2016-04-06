@@ -6,11 +6,13 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:logo="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:logo="@drawable/logo"
+
         >
-        <activity android:name=".SplashActivity"
+        <activity
+            android:name=".home_screen.SplashActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             >
@@ -20,14 +22,44 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name=".home_screen.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".book_list.BookListActivity"
+            android:label="@string/book_list"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".home_screen.MainActivity"
+            />
+        <activity
+            android:name=".add_book.AddNewBookActivity"
+            android:label="@string/titleActivity_AddNew"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".home_screen.MainActivity"
+            />
+        <activity
+            android:name=".borrow_book.BorrowBookActivity"
+            android:label="@string/title_activity_borrow_book"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".home_screen.MainActivity"
+
 
             />
-        <activity android:name=".BookListActivity"
-
-            android:label="@string/book_list"
+        <activity android:name=".return_book.ReturnBookActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/returnActivity"
+            android:parentActivityName=".home_screen.MainActivity"
+            />
+        <activity android:name=".about_app.AboutActivity"
+            android:label="@string/title_Activity_About"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".home_screen.MainActivity"
             >
 
+        </activity>
+        <activity android:name=".add_book.EditBookActivity"
+            android:label="@string/title_Activity_Edit"
+            android:screenOrientation="portrait"
+            >
 
         </activity>
     </application>

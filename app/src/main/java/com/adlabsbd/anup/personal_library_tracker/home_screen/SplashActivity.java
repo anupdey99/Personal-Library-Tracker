@@ -1,4 +1,4 @@
-package com.adlabsbd.anup.personal_library_tracker;
+package com.adlabsbd.anup.personal_library_tracker.home_screen;
 
 
 import android.app.Activity;
@@ -6,6 +6,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.adlabsbd.anup.personal_library_tracker.R;
 
 public class SplashActivity extends Activity {
 

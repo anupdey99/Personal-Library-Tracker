@@ -3,99 +3,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/mainActivityBack"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.adlabsbd.anup.personal_library_tracker.MainActivity"
-    android:orientation="vertical"
-    android:background="#EEE3B0"
-    >
+    tools:context=".home_screen.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_margin="30dp"
+        android:orientation="horizontal"
 
         >
+
         <Button
+            android:id="@+id/addNewBookButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:drawableTop="@drawable/btn_click"
             android:text="@string/addBook"
-            android:textColor="@android:color/black"
-            android:background="@android:color/transparent"
             android:textAppearance="?android:textAppearanceLarge"
-            />
+            android:textColor="@android:color/black" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/btn_click"
-            android:text="@string/bookList"
-            android:textColor="@android:color/black"
-            android:background="@android:color/transparent"
             android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/btn_click"
             android:onClick="goToBookList"
+            android:text="@string/bookList"
             android:textAppearance="?android:textAppearanceLarge"
-            />
+            android:textColor="@android:color/black" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_margin="30dp"
-        >
+        android:orientation="horizontal">
+
         <Button
+            android:id="@+id/borrowBookButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:drawableTop="@drawable/btn_click"
             android:text="@string/borrowBook"
             android:textAppearance="?android:textAppearanceLarge"
-            android:textColor="@android:color/black"
-            android:background="@android:color/transparent"
-            android:layout_weight="1"
-            />
+            android:textColor="@android:color/black" />
 
         <Button
+            android:id="@+id/returnBookButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
             android:drawableTop="@drawable/btn_click"
             android:text="@string/returnBook"
-            android:textColor="@android:color/black"
-            android:background="@android:color/transparent"
-            android:layout_weight="1"
-            android:layout_marginLeft="20dp"
             android:textAppearance="?android:textAppearanceLarge"
-            />
-
+            android:textColor="@android:color/black" />
 
 
     </LinearLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/about"
-            android:gravity="center"
-            android:textColor="#542003"
-            android:textAppearance="?android:textAppearanceLarge"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true" />
-    </RelativeLayout>
-
-
 
 
 </LinearLayout>

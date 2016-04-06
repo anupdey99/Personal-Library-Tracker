@@ -2,13 +2,68 @@
     <string name="app_name">Personal Library Tracker</string>
     <string name="book_list">Book List</string>
 
+    <!-- Splash Activity-->
+    <string name="personal">Personal</string>
+    <string name="library">Library</string>
+    <string name="tracker">Tracker</string>
+    <string name="group">by GroupOne</string>
     <!-- Main Activity String-->
-
     <string name="addBook">Add New</string>
     <string name="bookList">Book List</string>
     <string name="borrowBook">Borrow Book</string>
     <string name="returnBook">Return Book</string>
     <string name="about">About App</string>
-    <!-- -->
+
+    <!-- BookList Content-->
+    <string name="editBookDetails">Edit Book Details</string>
+    <string name="deleteBook">Remove</string>
+    <string name="detailsOfBook">Details</string>
+    <string name="addQuantity">Add Quantity</string>
+    <string name="borrow">Borrow</string>
+
+    <string name="isbnNumber">ISBN</string>
+    <string name="bookName">Book Name</string>
+    <string name="authorName">Author Name</string>
+    <string name="edition">Book Edition</string>
+    <string name="bookType">Book Type</string>
+    <string name="publisher">Publisher</string>
+    <string name="location">Book Self No.</string>
+    <string name="quantity">Quantity</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Add New Book Activity -->
+    <string name="titleActivity_AddNew">Add New Book</string>
+    <string name="goToList">Book List</string>
+    <string name="isbn">ISBN Code</string>
+    <string name="addBookBtn">Add New Book</string>
+    <string name="book_type_prompt">Choose Book Category</string>
+    <string-array name="book_type_list">
+        <item>Comics</item>
+        <item>Story</item>
+        <item>Novel</item>
+        <item>Series</item>
+    </string-array>
+
+    <!-- Edit book Activity -->
+    <string name="title_Activity_Edit">Edit Book</string>
+
+    <!-- Borrow Book Activity -->
+    <string name="title_activity_borrow_book">Borrow Book</string>
+
+    <!-- About Activity -->
+    <string name="title_Activity_About">About</string>
+    <string name="groupName">Team: GroupOne</string>
+    <string name="mate1">Anup Dey</string>
+    <string name="mate2">Akbar Hossain</string>
+    <string name="mate3">Md Masodujjaman</string>
+    <string name="mate4">Sudarshan Biswas</string>
+    <string name="mateID1">ID# 122228</string>
+    <string name="mateID2">ID# 126477</string>
+    <string name="mateID3">ID# 121696</string>
+    <string name="mateID4">ID# 123293</string>
+
+    <!-- Return Activity -->
+    <string name="returnActivity">Return Book</string>
 
 </resources>

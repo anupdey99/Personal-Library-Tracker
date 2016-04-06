@@ -7,9 +7,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.adlabsbd.anup.personal_library_tracker.BookListActivity"
+    tools:context=".book_list.BookListActivity"
     android:orientation="vertical"
-
+    android:background="#ECEFF1"
     >
 
     <ListView
@@ -18,6 +18,7 @@
         android:id="@+id/bookListViewID"
         android:divider="@android:color/transparent"
         android:dividerHeight="10sp"
+        android:background="@drawable/custom_row_bacground"
         >
 
     </ListView>

@@ -3,12 +3,12 @@
 
     <item android:state_pressed="false">
 
-        <bitmap android:src="@drawable/book"/>
+        <bitmap android:src="@drawable/book_glow"/>
 
     </item>
 
     <item android:state_pressed="true" >
-        <bitmap android:src="@drawable/book_glow"/>
+        <bitmap android:src="@drawable/book"/>
 
     </item>
 
